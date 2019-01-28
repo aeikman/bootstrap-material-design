@@ -25,6 +25,7 @@
     "build": "npm run build:js && npm run build:js-min && npm run build:css && npm run build:css-min",
     "build:js": "rollup js/index.js --output.file=dist/js/bootstrap-material-design.js -m --config=rollup.config.js",
     "watch": "concurrently --kill-others --names \"js,css\" \"npm run watch:js\" \"npm run watch:css\"",
+    "prepare": "npm run build",
     "watch:js": "npm run build:js -- --watch",
     "watch:css": "npm run build:css && npm run build:css -- --watch",
     "build:js-min": "minify dist/js/bootstrap-material-design.js --out-file dist/js/bootstrap-material-design.min.js",
