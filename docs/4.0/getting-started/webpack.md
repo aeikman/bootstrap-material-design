@@ -44,7 +44,7 @@ First, create your own `_custom.scss` and use it to override the [built-in custo
 
 {% highlight scss %}
 @import "custom";
-@import "~bootstrap/scss/bootstrap";
+@import "bootstrap/scss/bootstrap";
 {% endhighlight %}
 
 For Bootstrap to compile, make sure you install and use the required loaders: [sass-loader](https://github.com/webpack-contrib/sass-loader), [postcss-loader](https://github.com/postcss/postcss-loader) with [Autoprefixer](https://github.com/postcss/autoprefixer#webpack). With minimal setup, your webpack config should include this rule or similar:
