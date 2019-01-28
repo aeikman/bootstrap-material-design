@@ -7,16 +7,16 @@
  */
 
 // Bootstrap components
-import "bootstrap/js/src/alert";
-import "bootstrap/js/src/button";
-import "bootstrap/js/src/carousel";
-import "bootstrap/js/src/collapse";
-import "bootstrap/js/src/modal";
-import "bootstrap/js/src/popover";
-import "bootstrap/js/src/scrollspy";
-import "bootstrap/js/src/tab";
-import "bootstrap/js/src/tooltip";
-import "bootstrap/js/src/util";
+import "node_modules/bootstrap/js/src/alert";
+import "node_modules/bootstrap/js/src/button";
+import "node_modules/bootstrap/js/src/carousel";
+import "node_modules/bootstrap/js/src/collapse";
+import "node_modules/bootstrap/js/src/modal";
+import "node_modules/bootstrap/js/src/popover";
+import "node_modules/bootstrap/js/src/scrollspy";
+import "node_modules/bootstrap/js/src/tab";
+import "node_modules/bootstrap/js/src/tooltip";
+import "node_modules/bootstrap/js/src/util";
 
 // invalidComponentMatches is currently disabled due to https://github.com/rollup/rollup/issues/428#issuecomment-170066452
 import "./checkbox";
